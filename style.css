@@ -23,3 +23,7 @@ md-card-title{
 	font-weight: bolder;
 	color: red;
 }
+
+.mdc-text-field__input{
+	background-color: white;
+}	

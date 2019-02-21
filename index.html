@@ -77,15 +77,66 @@
 		</div>
 	</div>
 
+	<div class="mdc-tab-bar" role="tablist">
+		<div class="mdc-tab-scroller">
+			<div class="mdc-tab-scroller__scroll-area">
+				<div class="mdc-tab-scroller__scroll-content">
+					<button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+						<span class="mdc-tab__content">
+							<span class="mdc-tab__icon material-icons" aria-hidden="true">favorite</span>
+							<span class="mdc-tab__text-label">Favorites 1</span>
+						</span>
+						<span class="mdc-tab-indicator mdc-tab-indicator--active">
+							<span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+						</span>
+						<span class="mdc-tab__ripple"></span>
+					</button>
+
+					<button class="mdc-tab mdc-tab" role="tab" aria-selected="true" tabindex="0">
+						<span class="mdc-tab__content">
+							<span class="mdc-tab__icon material-icons" aria-hidden="true">favorite</span>
+							<span class="mdc-tab__text-label">Favorites 2</span>
+						</span>
+						<span class="mdc-tab-indicator mdc-tab-indicator">
+							<span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+						</span>
+						<span class="mdc-tab__ripple"></span>
+					</button>
+					<button class="mdc-tab mdc-tab" role="tab" aria-selected="true" tabindex="0">
+						<span class="mdc-tab__content">
+							<span class="mdc-tab__icon material-icons" aria-hidden="true">favorite</span>
+							<span class="mdc-tab__text-label">Favorites 3</span>
+						</span>
+						<span class="mdc-tab-indicator mdc-tab-indicator">
+							<span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+						</span>
+						<span class="mdc-tab__ripple"></span>
+					</button>
+					<button class="mdc-tab mdc-tab" role="tab" aria-selected="true" tabindex="0">
+						<span class="mdc-tab__content">
+							<span class="mdc-tab__icon material-icons" aria-hidden="true">favorite</span>
+							<span class="mdc-tab__text-label">Favorites 4</span>
+						</span>
+						<span class="mdc-tab-indicator mdc-tab-indicator">
+							<span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+						</span>
+						<span class="mdc-tab__ripple"></span>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 
 
 	<script type="text/javascript">
 		mdc.switchControl.MDCSwitch.attachTo(document.querySelector('.switch1'));
 		mdc.switchControl.MDCSwitch.attachTo(document.querySelector('.switch2'));
-		mdc.textField.MDCTextField.attachTo(document.querySelector('.name'))
-		mdc.textField.MDCTextField.attachTo(document.querySelector('.address'))
-		mdc.textField.MDCTextField.attachTo(document.querySelector('.country'))
+		mdc.textField.MDCTextField.attachTo(document.querySelector('.name'));
+		mdc.textField.MDCTextField.attachTo(document.querySelector('.address'));
+		mdc.textField.MDCTextField.attachTo(document.querySelector('.country'));
+		mdc.tabBar.MDCTabBar.attachTo(document.querySelector('.mdc-tab-bar'));
 	</script>
 	</html>
 
