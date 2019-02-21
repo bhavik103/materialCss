@@ -1,0 +1,25 @@
+.mdc-switch{
+	margin-top: 20px;
+}
+
+.btn{
+	margin-top: 20px
+}
+
+.mdc-card{
+	padding: 40px
+}
+
+.switch2{
+	margin-left: 20px;
+}
+
+.mdc-card{
+	background-color: lightyellow;
+}
+
+md-card-title{
+	font-size: 20px;
+	font-weight: bolder;
+	color: red;
+}
